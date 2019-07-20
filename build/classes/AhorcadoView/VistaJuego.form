@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="346" pref="346" max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="70" pref="70" max="-2" attributes="0"/>
+                      <Component id="lblCabeza" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel1" min="-2" pref="190" max="-2" attributes="0"/>
+              </Group>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="70" pref="70" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="30" pref="30" max="-2" attributes="0"/>
+                      <Component id="lblBrazoIzquierdo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="lblTorzo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lblBrazoDerecho" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="86" pref="86" max="-2" attributes="0"/>
+              <Component id="lblEspacio" min="-2" pref="160" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="70" pref="70" max="-2" attributes="0"/>
+              <Component id="lblPiernaDerecha" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+              <Component id="lblPiernaIzquierda" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="60" pref="60" max="-2" attributes="0"/>
+              <Component id="lblAciertos" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="92" pref="92" max="-2" attributes="0"/>
+              <Component id="jtfLetra" min="-2" pref="32" max="-2" attributes="0"/>
+              <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
+              <Component id="btnComprobar" min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="lblLetrasIntentos" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblPista" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="119" pref="119" max="-2" attributes="0"/>
+                      <Component id="lblIntentosRestantes" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblCabeza" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblBrazoIzquierdo" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTorzo" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblBrazoDerecho" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                      <Component id="lblEspacio" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblPiernaDerecha" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPiernaIzquierda" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="lblAciertos" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jtfLetra" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnComprobar" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblIntentosRestantes" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Component id="lblLetrasIntentos" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="16" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="lblPista" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnComprobar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tempus Sans ITC" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Comprobar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnComprobarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtfLetra">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tempus Sans ITC" size="14" style="1"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtfLetraKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Version 0.1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCabeza">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="O"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBrazoIzquierdo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="\u005c" containsInvalidXMLChars="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBrazoDerecho">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTorzo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="|"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPiernaDerecha">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPiernaIzquierda">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="\u005c" containsInvalidXMLChars="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="--------&#xac;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tempus Sans ITC" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Adivina la palabra!"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEspacio">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tempus Sans ITC" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPista">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tempus Sans ITC" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Pista! la palabra tiene 0 letras!"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIntentosRestantes">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tempus Sans ITC" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tienes 7 intentos restantes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAciertos">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tempus Sans ITC" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Aciertos : 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Intentos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLetrasIntentos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
