@@ -326,13 +326,19 @@ public class VistaJuego extends javax.swing.JFrame {
         int fallas = AhorcadoJugador.restoIntentos();
         switch(fallas){
             case 5: lblCabeza.setVisible(true);
-            case 4: lblTorzo.setVisible(false);
+                    break;
+            case 4: lblTorzo.setVisible(true);
+                    break;
             case 3: lblBrazoDerecho.setVisible(true);
+                    break;
             case 2: lblBrazoIzquierdo.setVisible(true);
+                    break;
             case 1: lblPiernaDerecha.setVisible(true);
-            case 0: lblPiernaIzquierda.setVisible(true);  
+                    break;
+            case 0: lblPiernaIzquierda.setVisible(true); 
+                    break;
         }
-           
+         System.out.println(fallas);  
     }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
