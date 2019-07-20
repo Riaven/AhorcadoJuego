@@ -14,7 +14,7 @@ import java.util.ArrayList;
  */
 public class AhorcadoJugador {
    
-    private static int intentos = 7;
+    private static int intentos = 6;
     private static int aciertos = 0;
     private static int fallidos = 0;
     private static ArrayList<Character> arrayLetrasIntentos = new ArrayList<>();

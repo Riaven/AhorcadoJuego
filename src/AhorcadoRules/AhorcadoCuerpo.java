@@ -11,74 +11,21 @@ package AhorcadoRules;
  * @author Riaven
  */
 public class AhorcadoCuerpo {
-    private boolean cabeza;
-    private boolean torzo;
-    private boolean brazoIzquierdo;
-    private boolean brazoDerecho;
-    private boolean piernaIzquierda;
-    private boolean piernaDerecha;
-    //constructor vacío
-    public AhorcadoCuerpo(){
-    }
-    //constructor que recibe parametros pero no hace nada con ellos
-    public AhorcadoCuerpo(boolean cabeza, boolean torzo, boolean brazoIzquierdo, boolean brazoDerecho, boolean piernaIzquierda, boolean piernaDerecha) {
-        cabeza = false;
-        torzo = false;
-        brazoIzquierdo = false;
-        brazoDerecho = false;
-        piernaDerecha = false;
-        piernaIzquierda = false;
-    }
-
-    public boolean isCabeza() {
-        return cabeza;
-    }
-
-    public void setCabeza(boolean cabeza) {
-        this.cabeza = cabeza;
-    }
-
-    public boolean isTorzo() {
-        return torzo;
-    }
-
-    public void setTorzo(boolean torzo) {
-        this.torzo = torzo;
-    }
-
-    public boolean isBrazoIzquierdo() {
-        return brazoIzquierdo;
-    }
-
-    public void setBrazoIzquierdo(boolean brazoIzquierdo) {
-        this.brazoIzquierdo = brazoIzquierdo;
-    }
-
-    public boolean isBrazoDerecho() {
-        return brazoDerecho;
-    }
-
-    public void setBrazoDerecho(boolean brazoDerecho) {
-        this.brazoDerecho = brazoDerecho;
-    }
-
-    public boolean isPiernaIzquierda() {
-        return piernaIzquierda;
-    }
-
-    public void setPiernaIzquierda(boolean piernaIzquierda) {
-        this.piernaIzquierda = piernaIzquierda;
-    }
-
-    public boolean isPiernaDerecha() {
-        return piernaDerecha;
-    }
-
-    public void setPiernaDerecha(boolean piernaDerecha) {
-        this.piernaDerecha = piernaDerecha;
+    private static boolean cabeza = false;
+    private static boolean torzo = false;
+    private static boolean brazoIzquierdo = false;
+    private static boolean brazoDerecho = false;
+    private static boolean piernaIzquierda = false;
+    private static boolean piernaDerecha = false;
+    
+    /** Método que recibe el numero de fallidos, a medida que cambia
+     * tambien cambian de estado el cuerpo del ahocado
+     */
+    public static void recibirFallidos(int fallidos){
+        
     }
     
-    
-    
-    
+    public static void retornarCuerpo(){
+        
+    }
 }

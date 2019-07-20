@@ -297,6 +297,7 @@ public class VistaJuego extends javax.swing.JFrame {
         palabraEscondida = AhorcadoPalabra.rellenarEscondida(arrayChar).toString();
         //System.out.println(AhorcadoPalabra.rellenarEscondida(arrayChar));
         lblEspacio.setText(palabraEscondida);
+        lblIntentosRestantes.setText("Tienes " + AhorcadoJugador.restoIntentos()+  " intentos restantes");
         lblPista.setText("Pista! la palabra tiene "+ palabra.length() + " letras!");
         //ocultar el cuerpo 
         lblCabeza.setVisible(false);
@@ -305,6 +306,7 @@ public class VistaJuego extends javax.swing.JFrame {
         lblTorzo.setVisible(false);
         lblPiernaDerecha.setVisible(false);
         lblPiernaIzquierda.setVisible(false);
+        //intentos
         lblLetrasIntentos.setText(AhorcadoJugador.retornarLetrasIntentadas().toString());
     }
     
@@ -317,8 +319,21 @@ public class VistaJuego extends javax.swing.JFrame {
         lblIntentosRestantes.setText("Tienes " + AhorcadoJugador.restoIntentos()+  " intentos restantes");
         lblAciertos.setText("Aciertos : " + AhorcadoJugador.retornaAciertos());
         lblLetrasIntentos.setText(AhorcadoJugador.retornarLetrasIntentadas().toString());
+        dibujarCuerpo();
     }
     
+    public void dibujarCuerpo(){
+        int fallas = AhorcadoJugador.restoIntentos();
+        switch(fallas){
+            case 5: lblCabeza.setVisible(true);
+            case 4: lblTorzo.setVisible(false);
+            case 3: lblBrazoDerecho.setVisible(true);
+            case 2: lblBrazoIzquierdo.setVisible(true);
+            case 1: lblPiernaDerecha.setVisible(true);
+            case 0: lblPiernaIzquierda.setVisible(true);  
+        }
+           
+    }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnComprobar;
