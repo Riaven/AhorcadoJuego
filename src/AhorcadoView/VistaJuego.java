@@ -213,31 +213,43 @@ public class VistaJuego extends javax.swing.JFrame {
 
     private void jtfLetraKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jtfLetraKeyTyped
         // TODO add your handling code here:
+        //obtiene como caracter lo que se atrapa en el JTextField
         char caracter = evt.getKeyChar();
+        //varible que almacena el largo del texto recibido
         int contar;
         contar = 0;
         contar = jtfLetra.getText().toString().length();
+        //si el texto es igual a 1, cualquier otra letra escrita será ignorada
         if(contar == 1){
             evt.consume();
         }
+        //se hace un contador
         int contador = 0;
+        /**Se encarga de recorrer el array que contiene las letra que han sido 
+         * intentadas por el usuario, si es que alguna de las letras coincide
+         * con la letra que ha presionado el usuario, el contador aumenta en 1
+         */
         for(int i = 0; i < AhorcadoJugador.retornarLetrasIntentadas().size(); i++){
             if(AhorcadoJugador.retornarLetrasIntentadas().get(i).equals(caracter)){
                 contador++;
             }
         }
+        /**El en caso que a partir de la accion anterior, el contador aumentara
+         * y fuera mayor que 0, el evento se elimina o ignora.
+         */
         if (contador > 0){
             evt.consume();
         }
-         // Verificar si la tecla pulsada no es un digito
-       // if(((caracter < '0') || (caracter > '9')) && (caracter != '\b' /*corresponde a BACK_SPACE*/)){
+        // Verificar si la tecla pulsada no es un digito
+        //if(((caracter < '0') || (caracter > '9')) && (caracter != '\b' /*corresponde a BACK_SPACE*/)){
 
-         //   evt.consume(); 
+        //    evt.consume(); 
         //} 
     }//GEN-LAST:event_jtfLetraKeyTyped
-
+    //Accion del boton comprobar
     private void btnComprobarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnComprobarActionPerformed
         // TODO add your handling code here:
+        //comprueba que el el Jtext no este vacio
         if(!jtfLetra.getText().isEmpty()){
             AhorcadoPalabra.cambiarGuionXLetra(jtfLetra.getText().charAt(0));
             AhorcadoJugador.letrasIntentadas(jtfLetra.getText().charAt(0));
