@@ -251,8 +251,8 @@ public class VistaJuego extends javax.swing.JFrame {
         // TODO add your handling code here:
         //comprueba que el el Jtext no este vacio
         if(!jtfLetra.getText().isEmpty()){
-            AhorcadoPalabra.cambiarGuionXLetra(jtfLetra.getText().charAt(0));
-            AhorcadoJugador.letrasIntentadas(jtfLetra.getText().charAt(0));
+            AhorcadoPalabra.cambiarGuionXLetra(jtfLetra.getText().toLowerCase().charAt(0));
+            AhorcadoJugador.letrasIntentadas(jtfLetra.getText().toLowerCase().charAt(0));
             actualizarVentana();
             //comprobar que se ha perdido
             if(AhorcadoJugador.haPerdido()){

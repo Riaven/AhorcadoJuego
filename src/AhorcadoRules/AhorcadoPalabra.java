@@ -28,7 +28,7 @@ public class AhorcadoPalabra {
         this.palabra = palabra;
     }
     public static ArrayList<Character> rellenaArrayChar(String palabraInco){
-        palabra = palabraInco;
+        palabra = palabraInco.toLowerCase();
         //limpiar el array
         letraPalabra.removeAll(letraPalabra);
         //recorre la palabra para rellenar el array
